@@ -6,7 +6,7 @@ import Index from "./pages/Index";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dpport">
       <Routes>
         <Route path="/" element={<Index />} />
       </Routes>
