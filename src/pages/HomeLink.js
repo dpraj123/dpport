@@ -37,7 +37,7 @@ const HomeLink = ({ Linkstyle }) => {
           />
         </a>
         <a
-          href="mailto:rajdp764@com"
+          href="mailto:rajdp764@gmail.com"
           title="Contact us"
           rel="noreferrer"
           target="_blank"
