@@ -1,8 +1,7 @@
 {
   "name": "dpport",
   "version": "0.1.0",
-
-  "private": true,
+  "private": false,
   "home": " https://dpraj123.github.io/dpport",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
