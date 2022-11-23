@@ -8,7 +8,7 @@ const App = () => {
   return (
     <BrowserRouter basename="/dpport">
       <Routes>
-        <Route path="/" element={<Index />} />
+        <Route path="/dpport" element={<Index />} />
       </Routes>
     </BrowserRouter>
   );
