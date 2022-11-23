@@ -2,7 +2,7 @@
   "name": "dpport",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://dpraj123.github.io/dpport",
+  "homepage": "https://dpraj.xyz/",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@emotion/react": "^11.10.5",
