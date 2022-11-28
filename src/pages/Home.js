@@ -5,6 +5,7 @@ import dnm from "../IMG/dnm.jpeg";
 import bds from "../IMG/bds.png";
 import about from "../IMG/about.png";
 import kbrd from "../IMG/kbrd.jpeg";
+import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
@@ -36,23 +37,41 @@ const Home = () => {
               alt="yoyo"
             />
 
-            <div className="bg-fourth w-full h-[25vh] sm:h-80 z-1 absolute rounded-tr-full rounded-bl-full right-4 top-12 md:w-1/2 md:top-10 skew-y-6 md:right-5 shadow-lg shadow-indigo-500/100">
+            <div className=" bg-fourth w-full h-[25vh] sm:h-80 z-1 absolute rounded-tr-full rounded-bl-full right-4 top-12 md:w-1/2 md:top-10 skew-y-6 md:right-5 shadow-lg shadow-indigo-500/100">
               <div className=" backdrop-blur-lg w-full h-full rounded-tr-full rounded-bl-full shadow-lg shadow-indigo-500/100 "></div>
             </div>
           </div>
         </div>
         <div className="z-10 flex items-center flex-col pb-20 sm:py-20 sm:gap-1 md:gap-0 mx-auto text-center">
-          <h1 className="text-secondary text-2xl ">Hello, I ’ m</h1>
+          <h1 className="text-secondary text-2xl ">
+            {/* Hello, I ’ m */}
+            <Typewriter
+              cursor
+              cursorStyle="_"
+              typeSpeed={200}
+              words={["Hello, I ’ m"]}
+            />
+          </h1>
           <h1 className="font-bold text-tertiory text-2xl sm:text-4xl md:text-2xl lg:text-4xl blur-[0.4px] ">
             <span className="sm:text-7xl">D</span>HARMPAL{" "}
             <span className="sm:text-6xl">K</span>UMAR
           </h1>
+
           <h1 className="uppercase">
             <span className="text-blue-500 font-bold sm:text-4xl block text-left ">
               ----
             </span>
-            <p className="text-xl sm:text-2xl md:text-xl">
-              Full-Stack Web Developer{" "}
+            <p className="text-xl sm:text-2xl md:text-xl text-red-500 font-semibold">
+              {/* Full-Stack Web Developer{" "} */}
+              <Typewriter
+                loop
+                cursor
+                cursorStyle="."
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+                words={["Full-Stack Web Developer", "MERN-Stack Developer"]}
+              />
             </p>
             <span className="text-blue-500 font-bold sm:text-4xl block text-right">
               ----

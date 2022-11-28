@@ -63,7 +63,7 @@
     z-index: -3;
   }
 }
-@keyframes slide-last {
+/* @keyframes slide-last {
   0%,
   100%,
   90.01% {
@@ -83,4 +83,4 @@
     transform: translateX(0%) rotate(var(--r));
     z-index: -3;
   }
-}
+} */

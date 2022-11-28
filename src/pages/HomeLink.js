@@ -1,5 +1,4 @@
 import React from "react";
-
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailIcon from "@mui/icons-material/Email";
@@ -12,7 +11,7 @@ const HomeLink = ({ Linkstyle }) => {
           target="_blank"
           title="GitHub"
           rel="noreferrer"
-          className="animate-pulse hover:cursor-pointer"
+          className="hover:cursor-pointer"
         >
           <GitHubIcon
             style={{
@@ -27,7 +26,7 @@ const HomeLink = ({ Linkstyle }) => {
           target="_blank"
           title="twitter"
           rel="noreferrer"
-          className="animate-pulse hover:cursor-pointer"
+          className=" hover:cursor-pointer"
         >
           <WhatsAppIcon
             style={{
@@ -41,7 +40,7 @@ const HomeLink = ({ Linkstyle }) => {
           title="Contact us"
           rel="noreferrer"
           target="_blank"
-          className=" animate-pulse hover:cursor-pointer"
+          className="  hover:cursor-pointer"
         >
           <EmailIcon
             style={{

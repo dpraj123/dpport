@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { WhatsApp, EmailOutlined, LocationOn } from "@mui/icons-material";
-
+import { Typewriter } from "react-simple-typewriter";
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -31,7 +31,16 @@ const Contact = () => {
             Contact
           </h1>
           <p className="text-secondary font-mono font-semibold text-2xl text-center py-4">
-            Drop Me a Message
+            {/* Drop Me a Message */}
+            <Typewriter
+              loop
+              cursor
+              cursorStyle="_"
+              typeSpeed={100}
+              deleteSpeed={70}
+              delaySpeed={1000}
+              words={["Drop Me a Message"]}
+            />
           </p>
           <div className="lg:pt-14">
             <div className="flex items-center justify-center gap-10  h-full">
