@@ -68,6 +68,7 @@ const Navbar = () => {
                 to={`${nav.id}`}
                 spy={true}
                 smooth={true}
+                key={index}
               >
                 {nav.name}
               </Link>
