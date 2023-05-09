@@ -2,8 +2,8 @@ import React from "react";
 import HomeLink from "./HomeLink";
 import ResumeButton from "./Resume_button";
 import dnm from "../IMG/dnm.jpeg";
-import bds from "../IMG/bds.png";
-import about from "../IMG/about.png";
+import bds from "../IMG/bds.jpeg";
+import about from "../IMG/about.jpeg";
 import kbrd from "../IMG/kbrd.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 

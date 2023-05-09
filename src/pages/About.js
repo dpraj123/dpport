@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../IMG/about.png";
+import about from "../IMG/about.jpeg";
 
 const About = () => {
   return (
@@ -8,7 +8,11 @@ const About = () => {
         <h1 className=" text-4xl font-bold text-center py-4 ">About Me</h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 items-center text-center py-10 bg-[#101630] rounded-3xl">
           <div className=" about_img mx-auto lg:mx-0 lg:ml-auto ">
-            <img className="h-96 rounded-3xl bg-gradient-to-b from-pink-200 via-red-400 to-yellow-500 " src={about} alt="yoyo" />
+            <img
+              className="h-96 rounded-3xl bg-gradient-to-b from-pink-200 via-red-400 to-yellow-500 "
+              src={about}
+              alt="yoyo"
+            />
           </div>
           <div className=" col-span-2">
             <h1 className="text-2xl font-serif text-primary p-5 text-start">
@@ -22,7 +26,7 @@ const About = () => {
               <span className="bg-red-900">Front-End </span> technologies.
             </h1>
             <div className="text-white ">
-              <h2 className="font-semibold text-2xl text-yellow-500 font-mono">
+              {/* <h2 className="font-semibold text-2xl text-yellow-500 font-mono">
                 Educational Qualification
               </h2>
               <table className="border-separate mx-auto w-full lg:w-1/2">
@@ -70,7 +74,7 @@ const About = () => {
                     Magadh University
                   </td>
                 </tr>
-              </table>
+              </table> */}
             </div>
           </div>
         </div>

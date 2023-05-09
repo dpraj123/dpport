@@ -24,7 +24,7 @@ const HomeLink = ({ Linkstyle }) => {
         <a
           href="https://wa.link/du0bwg"
           target="_blank"
-          title="twitter"
+          title="whatsapp"
           rel="noreferrer"
           className=" hover:cursor-pointer"
         >
