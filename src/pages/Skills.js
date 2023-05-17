@@ -27,9 +27,7 @@ const Projects = () => {
           </h1>
           <p className=" text-xl font-semibold text-center text-secondary/80 py-5">
             I like to code things from scratch, and enjoy bringing ideas to life
-            in the browser. <br /> I am also good in{" "}
-            <span className=" text-fourth px-2">Data Structure</span> and{" "}
-            <span className=" text-fourth px-2">Algorithm</span>
+            in the browser. <br />
           </p>
         </div>
         <div className="gap-10 md:gap-0 grid sm:grid-cols-2 md:grid-cols-3 lg:mx-40 ">
@@ -45,17 +43,16 @@ const Projects = () => {
               </h1>
               <div className="flex flex-col sm:pt-2 font-semibold">
                 <div className="flex gap-5 justify-center">
-                  <h1>Html</h1>
-                  <h1>Css</h1>
-                  <h1>JavaScript</h1>
+                  <h1>React js</h1>
+                  <h1>Next js</h1>
                 </div>
                 <div className="flex gap-2 justify-center">
-                  <h1>React Js</h1>
-                  <h1>TailWind CSS</h1>
+                  <h1>JEST</h1>
+                  <h1>RTL</h1>
                 </div>
                 <div className="flex sm:gap-5 justify-center">
-                  <h1>Sass</h1>
-                  <h1>BootStrap</h1>
+                  <h1>Redux</h1>
+                  <h1>Chakra Ui</h1>
                 </div>
               </div>
               <Star star={Front_End} />
@@ -82,7 +79,7 @@ const Projects = () => {
                 </div>
                 <div className="flex gap-5 justify-center">
                   <h1>Rest_Api</h1>
-                  <h1>PostMan</h1>
+                  <h1>MySQL</h1>
                 </div>
               </div>
               <Star star={Back_End} />
@@ -106,14 +103,12 @@ const Projects = () => {
                 <div className="flex gap-5 justify-center">
                   <h1>C++</h1>
                   <h1>Git</h1>
-                  <h1>GitHub</h1>
+                  <h1>TypeScript</h1>
                 </div>
-                <div className="text-rose-700 mx-auto text-center">
-                  <h1>On the Way of Learning----</h1>
-                  <h1>
-                    Next_JS <span className=" text-fuchsia-700">&</span>{" "}
-                    TypScript
-                  </h1>
+                <div className="flex gap-5 justify-center">
+                  <h1>Sass</h1>
+                  <h1>Postman</h1>
+                  <h1>JavaScript</h1>
                 </div>
               </div>
               <Star star={Front_End} />

@@ -17,12 +17,18 @@ const About = () => {
           <div className=" col-span-2">
             <h1 className="text-2xl font-serif text-primary p-5 text-start">
               Hi, I'm Dharmpal Kumar,
-              <br /> I am workinkg as a web developer since last 2 years as a{" "}
-              <span className="">Freelancer</span> software developer .who loves
-              to building full-stack applications and learning new technologies,
-              I learned almost everything myself because of my curiosity and my
-              desire for new experience. <br /> I'm comfortable working with
-              both <span className="bg-red-900">Back-End</span> and{" "}
+              <br /> A passionate React Js Developer || Frontend Engineer ||
+              MERN stack Developer from India.I have strong background in
+              Software Development and have been working in this industry for
+              over 2 years. <br />I completed my Bachelor in Computer Science
+              which enabled me to design and develop complex software systems.I
+              have experience with different technologies{" "}
+              <span className="bg-red-900">
+                React ,Javascript ,Database,Jest,Next js,Redux,api
+                Development,Node js{" "}
+              </span>
+              and many more... <br /> I'm comfortable working with both{" "}
+              <span className="bg-red-900">Back-End</span> and{" "}
               <span className="bg-red-900">Front-End </span> technologies.
             </h1>
             <div className="text-white ">

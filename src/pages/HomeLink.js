@@ -7,7 +7,7 @@ const HomeLink = ({ Linkstyle }) => {
     <>
       <div className={Linkstyle}>
         <a
-          href="https://github.com/dpraj123?tab=repositories"
+          href="https://github.com/dpraj123"
           target="_blank"
           title="GitHub"
           rel="noreferrer"
