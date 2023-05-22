@@ -6,7 +6,7 @@ const ResumeButton = ({ title }) => {
   return (
     <>
       <a
-        href="https://drive.google.com/file/d/1MmO8y-2RIIcJ3x68yW9bgP-BHegESk2B/view?usp=sharing"
+        href="https://drive.google.com/file/d/1KP4u_9wnyqZ3T9pTAmcrRhRtjw8k4MwG/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >

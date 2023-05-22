@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../IMG/about.jpeg";
+import bds from "../IMG/bds.jpeg";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
           <div className=" about_img mx-auto lg:mx-0 lg:ml-auto ">
             <img
               className="h-96 rounded-3xl bg-gradient-to-b from-pink-200 via-red-400 to-yellow-500 "
-              src={about}
+              src={bds}
               alt="yoyo"
             />
           </div>
