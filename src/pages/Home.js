@@ -56,21 +56,26 @@ const Home = () => {
             <span className="sm:text-7xl">D</span>HARMPAL{" "}
             <span className="sm:text-6xl">K</span>UMAR
           </h1>
-
-          <h1 className="uppercase">
+          <p>
+            Call me <span className="sm:text-sm font-bold">👌Dp</span>
+          </p>
+          <h1>
             <span className="text-blue-500 font-bold sm:text-4xl block text-left ">
               ----
             </span>
             <p className="text-xl sm:text-2xl md:text-xl text-red-500 font-semibold">
-              {/* Full-Stack Web Developer{" "} */}
               <Typewriter
                 loop
                 cursor
-                cursorStyle="."
+                cursorStyle="🖊️"
                 typeSpeed={70}
                 deleteSpeed={50}
                 delaySpeed={1000}
-                words={["Full-Stack Web Developer", "MERN-Stack Developer"]}
+                words={[
+                  "React Js Developer",
+                  " Frontend Engineer",
+                  "MERN stack Developer",
+                ]}
               />
             </p>
             <span className="text-blue-500 font-bold sm:text-4xl block text-right">
